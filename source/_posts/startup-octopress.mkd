@@ -1,5 +1,6 @@
-How to start tech blog with Octopress
-=====================================
+----------------------------------------
+title: How to start tech blog with Octopress
+----------------------------------------
 
 I just type some commands below:
 
