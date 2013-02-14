@@ -9,6 +9,8 @@ I just type some commands below:
     $ bundle exec rake install
     $ bundle exec rake setup_github_pages
     $ bundle exec rake generate
+    $ git add .
+    $ git commit -a
     $ bundle exec rake deploy
 
 And, write a this file(source/_post/startup-octopress.mkd).
