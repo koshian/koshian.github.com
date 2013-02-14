@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://koshian.github.com/atom.xml" rel="self"/>
   <link href="http://koshian.github.com/"/>
-  <updated>2013-02-14T23:17:09+07:00</updated>
+  <updated>2013-02-14T23:44:01+07:00</updated>
   <id>http://koshian.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to start tech blog with Octopress]]></title>
+    <link href="http://koshian.github.com/blog/2013/02/14/startup-octopress/"/>
+    <updated>2013-02-14T00:00:00+07:00</updated>
+    <id>http://koshian.github.com/blog/2013/02/14/startup-octopress</id>
+    <content type="html"><![CDATA[<p>I just type some commands below:</p>
+
+<pre><code>$ git clone git://github.com/imathis/octopress.git octopress
+$ cd octopress
+$ bundle install
+$ bundle exec rake install
+$ bundle exec rake setup_github_pages
+$ bundle exec rake generate
+$ git add .
+$ git commit -a
+$ bundle exec rake deploy
+</code></pre>
+
+<p>And, write a this file(source/_post/startup-octopress.mkd).</p>
+
+<pre><code>$ bundle exec rake gen_deploy
+</code></pre>
+
+<p>enjoy!</p>
+]]></content>
+  </entry>
   
 </feed>
