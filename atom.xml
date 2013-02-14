@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://koshian.github.com/atom.xml" rel="self"/>
   <link href="http://koshian.github.com/"/>
-  <updated>2013-02-14T23:49:09+07:00</updated>
+  <updated>2013-02-14T23:58:15+07:00</updated>
   <id>http://koshian.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -37,6 +37,28 @@ $ bundle exec rake deploy
 </code></pre>
 
 <p>enjoy!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lets Go To Ruby World]]></title>
+    <link href="http://koshian.github.com/blog/2013/02/14/lets-go-to-ruby-world/"/>
+    <updated>2013-02-14T00:00:00+07:00</updated>
+    <id>http://koshian.github.com/blog/2013/02/14/lets-go-to-ruby-world</id>
+    <content type="html"><![CDATA[<h2>Let&#8217;s Start Ruby Programming!</h2>
+
+<p>Let&#8217;s write down like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1">#!/usr/bin/ruby</span>
+</span><span class='line'><span class="s2">&quot;Let&#39;s Start Ruby Programming!&quot;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">s</span><span class="o">|</span>
+</span><span class='line'>  <span class="nb">puts</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">s</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
 ]]></content>
   </entry>
   
