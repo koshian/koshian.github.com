@@ -1,0 +1,19 @@
+How to start tech blog with Octopress
+=====================================
+
+I just type some commands below:
+
+    $ git clone git://github.com/imathis/octopress.git octopress
+    $ cd octopress
+    $ bundle install
+    $ bundle exec rake install
+    $ bundle exec rake setup_github_pages
+    $ bundle exec rake generate
+    $ bundle exec rake deploy
+
+And, write a this file(source/_post/startup-octopress.mkd).
+
+    $ bundle exec rake gen_deploy
+
+enjoy!
+
